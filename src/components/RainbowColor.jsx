@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 
 const RainbowColor = () => {
-    const rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+  const rainbowColors = [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "indigo",
+    "violet",
+  ];
   const [rainbowColor, setRainbowColor] = useState({
     1: "red",
     2: "orange",
@@ -12,17 +20,17 @@ const RainbowColor = () => {
     7: "violet",
   });
 
-  const handleRainbowColorChange = (colorId)=> {
-    setRainbowColor((prevColor)=> {
-        const newColor = { ...prevColor }
+  const handleRainbowColorChange = (colorId) => {
+    setRainbowColor((prevColor) => {
+      const newColor = { ...prevColor };
 
-        const currentIndex = rainbowColors.indexOf(newColor[colorId])
-        const nextIndex = (currentIndex + 1) % rainbowColors.length
-        
-        newColor[colorId] = rainbowColors[nextIndex]
-        return newColor
-    })
-  }
+      const currentIndex = rainbowColors.indexOf(newColor[colorId]);
+      const nextIndex = (currentIndex + 1) % rainbowColors.length;
+
+      newColor[colorId] = rainbowColors[nextIndex];
+      return newColor;
+    });
+  };
   return (
     <>
       <div>Changing The RainbowColors</div>

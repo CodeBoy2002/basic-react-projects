@@ -5,6 +5,7 @@ import ShoppingCart from './components/ShoppingCart'
 import ButtonHover from './components/ButtonHover'
 import CircularColorChange from './components/CircularColorChange'
 import RainbowColor from './components/RainbowColor'
+import FetchData from './components/FetchData'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <ShoppingCart/> */}
       {/* <ButtonHover/> */}
       {/* <CircularColorChange/> */}
-      <RainbowColor/>
+      {/* <RainbowColor/> */}
+      <FetchData/>
     </> 
   )
 }
