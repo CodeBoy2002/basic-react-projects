@@ -12,6 +12,7 @@ import ToggleItems from './components/ToggleItems'
 import CheckBox from './components/CheckBox'
 import AddTasksInputs from './components/AddTasksInputs'
 import HoverNeighbor from './components/HoverNeighbor'
+import FetchAndRandom from './components/FetchAndRandom'
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       {/* <ToggleItems/> */}
       {/* <CheckBox/> */}
       {/* <AddTasksInputs/> */}
-      <HoverNeighbor/>
+      {/* <HoverNeighbor/> */}
+      <FetchAndRandom/>
     </> 
   )
 }
