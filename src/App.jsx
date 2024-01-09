@@ -11,6 +11,7 @@ import GenerateRandomColor from './components/GenerateRandomColor'
 import ToggleItems from './components/ToggleItems'
 import CheckBox from './components/CheckBox'
 import AddTasksInputs from './components/AddTasksInputs'
+import HoverNeighbor from './components/HoverNeighbor'
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       {/* <GenerateRandomColor/> */}
       {/* <ToggleItems/> */}
       {/* <CheckBox/> */}
-      <AddTasksInputs/>
+      {/* <AddTasksInputs/> */}
+      <HoverNeighbor/>
     </> 
   )
 }
